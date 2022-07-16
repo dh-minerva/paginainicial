@@ -1,25 +1,22 @@
+
 .container {
-    background-color: white;
+    background-color: #ffffff;
     width: 80%;
     margin-left: 10%;
-}
-
-.logo {
-    display: block;
-    margin: 10px;
-    padding: 10px;
-
-}
-
-/** cabeçalho da página **/
-
-.header {
-    background-color: #1597a7;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /** menu início da página **/
 
+.logo {
+    width: 100px;
+    height: 64px;
+    background-size: 100px 64px;
+    position: absolute;
+  }
+
 .nav-bar li {
+    background-color: #1597a7;
     float: left;
     text-align: center;
 
@@ -38,7 +35,7 @@
 .nav-bar li a {
     color: white;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 20px 30px;
     display: block;
 
 }
@@ -51,18 +48,20 @@
 
 .footer {
     background-color: #1597a7;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .footer li a {
-    color: white;
+    color: #ffffff;
     
 }
 
 .col-3 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    margin: 0 auto;
+    text-align: center;   
 }
+
+
